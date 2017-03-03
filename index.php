@@ -51,12 +51,12 @@ $URL=rtrim(ltrim($_SERVER['REQUEST_URI'],'/'),'/');
         e.target // newly activated tab
         //start playing content
         
-        //change url and title
-        var newTitle = $(e.target).text();
-        var newURL   = $(e.target).text().toLowerCase();
-        if(newURL=='polymathism'){newURL='';}
-        history.pushState('', newTitle, newURL);
-        $(document).prop('title', newTitle);
+        ////change url and title
+        //var newTitle = $(e.target).text();
+        //var newURL   = $(e.target).text().toLowerCase();
+        //if(newURL=='polymathism'){newURL='';}
+        //history.pushState('', newTitle, newURL);
+        //$(document).prop('title', newTitle);
         
         
         e.relatedTarget // previous active tab

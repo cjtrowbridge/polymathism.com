@@ -49,8 +49,8 @@
         //start playing content
         
         //change url
-        var newTitle = e.target.text();
-        var newURL   = e.target.text().toLowerCase();
+        var newTitle = $(e.target).text();
+        var newURL   = $(e.target).text().toLowerCase();
         history.pushState('', newTitle, newURL);
         
         

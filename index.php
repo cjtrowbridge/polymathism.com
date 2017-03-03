@@ -25,7 +25,7 @@ $URL=rtrim(ltrim($_SERVER['REQUEST_URI'],'/'),'/');
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a class="nav-link actvie" data-toggle="tab" href="#polymathism" role="tab" >Polymathism</a>
+              <a class="nav-link active" data-toggle="tab" href="#polymathism" role="tab" >Polymathism</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#news" role="tab">News</a>

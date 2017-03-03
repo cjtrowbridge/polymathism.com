@@ -25,17 +25,17 @@ $URL=rtrim(ltrim($_SERVER['REQUEST_URI'],'/'),'/');
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a class="nav-link<?php if($URL==''){echo ' active';} ?>" data-toggle="tab" href="/" role="tab" onclick="$('#polymathismTab').tab('show');">Polymathism</a>
+              <a class="nav-link actvie" data-toggle="tab" href="/" role="tab" onclick="$('#polymathismTab').tab('show');">Polymathism</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link<?php if($URL=='news'){echo ' active';} ?>" data-toggle="tab" href="/news" role="tab" onclick="$('#newsTab').tab('show');">News</a>
+              <a class="nav-link" data-toggle="tab" href="/news" role="tab" onclick="$('#newsTab').tab('show');">News</a>
             </li>
           </ul>
 
           <!-- Tab panes -->
           <div class="tab-content">
-            <div class="tab-pane<?php if($URL==''){echo ' active';} ?>" id="polymathismTab" role="tabpanel">polymathism content here</div>
-            <div class="tab-pane<?php if($URL=='news'){echo ' active';} ?>" id="newsTab" role="tabpanel">news content here</div>
+            <div class="tab-pane active" id="polymathismTab" role="tabpanel">polymathism content here</div>
+            <div class="tab-pane" id="newsTab" role="tabpanel">news content here</div>
           </div>
           
         </div>

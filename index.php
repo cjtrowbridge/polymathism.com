@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
       body{
-        padding-top: 2rem;
+        padding-top: 1rem;
       }
     </style>
   </head>
@@ -26,6 +26,18 @@
               <a class="nav-link" href="#">News</a>
             </li>
           </ul>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="polymathism">
+          
+          polymathism content here
+          
+        </div>
+        <div class="col" id="news">
+          
+          news content here
           
         </div>
       </div>

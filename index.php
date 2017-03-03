@@ -48,10 +48,11 @@
         e.target // newly activated tab
         //start playing content
         
-        //change url
+        //change url and title
         var newTitle = $(e.target).text();
         var newURL   = $(e.target).text().toLowerCase();
         history.pushState('', newTitle, newURL);
+        $(document).prop('title', newTitle);
         
         
         e.relatedTarget // previous active tab

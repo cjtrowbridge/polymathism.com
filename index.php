@@ -30,8 +30,8 @@
 
           <!-- Tab panes -->
           <div class="tab-content">
-            <div class="tab-pane active" id="polymathism" role="tabpanel">...</div>
-            <div class="tab-pane" id="news" role="tabpanel">...</div>
+            <div class="tab-pane active" id="polymathism" role="tabpanel">polymathism content here</div>
+            <div class="tab-pane" id="news" role="tabpanel">news content here</div>
           </div>
           
         </div>

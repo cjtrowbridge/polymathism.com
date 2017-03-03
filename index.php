@@ -11,7 +11,8 @@
     
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col">
+          
           <ul class="nav nav-tabs">
             <li class="nav-item">
               <a class="nav-link active" href="#">Polymathism</a>
@@ -20,6 +21,7 @@
               <a class="nav-link" href="#">News</a>
             </li>
           </ul>
+          
         </div>
       </div>
     </div>

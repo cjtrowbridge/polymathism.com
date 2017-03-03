@@ -47,8 +47,12 @@
       $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         e.target // newly activated tab
         //start playing content
+        
         //change url
-        console.log(e.target);
+        var newTitle = e.target.text();
+        var newURL   = e.target.text().toLowerCase();
+        history.pushState('', newTitle, newURL);
+        
         
         e.relatedTarget // previous active tab
         //stop any playing content

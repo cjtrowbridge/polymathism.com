@@ -18,31 +18,26 @@
       <div class="row">
         <div class="col">
           
-          <ul class="nav nav-tabs">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Polymathism</a>
+              <a class="nav-link active" data-toggle="tab" href="#polymathism" role="tab">Polymathism</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
+              <a class="nav-link" data-toggle="tab" href="#news" role="tab">News</a>
             </li>
           </ul>
-          
-        </div>
-      </div>
-      <div class="row">
-        <div class="col" id="polymathism">
-          
-          polymathism content here
-          
-        </div>
-        <div class="col" id="news">
-          
-          news content here
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="polymathism" role="tabpanel">...</div>
+            <div class="tab-pane" id="news" role="tabpanel">...</div>
+          </div>
           
         </div>
       </div>
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

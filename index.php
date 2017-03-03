@@ -34,8 +34,8 @@ $URL=rtrim(ltrim($_SERVER['REQUEST_URI'],'/'),'/');
 
           <!-- Tab panes -->
           <div class="tab-content">
-            <div class="tab-pane active" id="polymathism" role="tabpanel">polymathism content here</div>
-            <div class="tab-pane" id="news" role="tabpanel">news content here</div>
+            <div class="tab-pane<?php if($URL==''){echo ' active';} ?>" id="polymathism" role="tabpanel">polymathism content here</div>
+            <div class="tab-pane<?php if($URL=='news'){echo ' active';} ?>" id="news" role="tabpanel">news content here</div>
           </div>
           
         </div>

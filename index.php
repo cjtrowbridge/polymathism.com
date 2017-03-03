@@ -21,10 +21,10 @@
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="/polymathism" role="tab" onclick="$('#news').tab('show');">Polymathism</a>
+              <a class="nav-link<?php if($_SERVER['REQUEST_URI']==''||$_SERVER['REQUEST_URI']=='polymathism'){echo ' active';} ?>" data-toggle="tab" href="/polymathism" role="tab" onclick="$('#news').tab('show');">Polymathism</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="/news" role="tab" onclick="$('#news').tab('show');">News</a>
+              <a class="nav-link<?php if($_SERVER['REQUEST_URI']=='news'){echo ' active';} ?>" data-toggle="tab" href="/news" role="tab" onclick="$('#news').tab('show');">News</a>
             </li>
           </ul>
 

@@ -21,10 +21,10 @@
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-              <a class="nav-link<?php if($_SERVER['REQUEST_URI']==''||$_SERVER['REQUEST_URI']=='polymathism'){echo ' active';} ?>" data-toggle="tab" href="/polymathism" role="tab" onclick="$('#news').tab('show');">Polymathism</a>
+              <a class="nav-link<?php if(rtrim('/',ltrim('/',$_SERVER['REQUEST_URI']))==''){echo ' active';} ?>" data-toggle="tab" href="/" role="tab" onclick="$('#news').tab('show');">Polymathism</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link<?php if($_SERVER['REQUEST_URI']=='news'){echo ' active';} ?>" data-toggle="tab" href="/news" role="tab" onclick="$('#news').tab('show');">News</a>
+              <a class="nav-link<?php if(rtrim('/',ltrim('/',$_SERVER['REQUEST_URI']))=='news'){echo ' active';} ?>" data-toggle="tab" href="/news" role="tab" onclick="$('#news').tab('show');">News</a>
             </li>
           </ul>
 
@@ -37,7 +37,6 @@
         </div>
       </div>
     </div>
-    <?php var_dump($_SERVER['REQUEST_URI']); ?>
     
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
